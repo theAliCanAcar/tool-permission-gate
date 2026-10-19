@@ -1,0 +1,27 @@
+{
+  "name": "tool-permission-gate",
+  "version": "1.0.0",
+  "private": false,
+  "type": "module",
+  "description": "Default-deny tool, operation, and path allowlists.",
+  "main": "tool-permission-gate.js",
+  "exports": {
+    ".": "./tool-permission-gate.js"
+  },
+  "files": [
+    "tool-permission-gate.js",
+    "README.md",
+    "LICENSE",
+    "package.json"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "agents",
+    "reliability",
+    "verification",
+    "tool-permission-gate"
+  ],
+  "license": "MIT"
+}
